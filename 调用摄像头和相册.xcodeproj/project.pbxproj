@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACED9E618FD984E002A7AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACED9E518FD984E002A7AD9 /* Foundation.framework */; };
+		EACED9E818FD984E002A7AD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACED9E718FD984E002A7AD9 /* CoreGraphics.framework */; };
+		EACED9EA18FD984E002A7AD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACED9E918FD984E002A7AD9 /* UIKit.framework */; };
+		EACED9F018FD984E002A7AD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EACED9EE18FD984E002A7AD9 /* InfoPlist.strings */; };
+		EACED9F218FD984E002A7AD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACED9F118FD984E002A7AD9 /* main.m */; };
+		EACED9F618FD984E002A7AD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACED9F518FD984E002A7AD9 /* AppDelegate.m */; };
+		EACED9F918FD984E002A7AD9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACED9F718FD984E002A7AD9 /* Main_iPhone.storyboard */; };
+		EACED9FC18FD984E002A7AD9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACED9FA18FD984E002A7AD9 /* Main_iPad.storyboard */; };
+		EACED9FF18FD984E002A7AD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACED9FE18FD984E002A7AD9 /* ViewController.m */; };
+		EACEDA0118FD984E002A7AD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACEDA0018FD984E002A7AD9 /* Images.xcassets */; };
+		EACEDA0818FD984E002A7AD9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACEDA0718FD984E002A7AD9 /* XCTest.framework */; };
+		EACEDA0918FD984E002A7AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACED9E518FD984E002A7AD9 /* Foundation.framework */; };
+		EACEDA0A18FD984E002A7AD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACED9E918FD984E002A7AD9 /* UIKit.framework */; };
+		EACEDA1218FD984E002A7AD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EACEDA1018FD984E002A7AD9 /* InfoPlist.strings */; };
+		EACEDA1418FD984E002A7AD9 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EACEDA1318FD984E002A7AD9 /* ________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EACEDA0B18FD984E002A7AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EACED9DA18FD984E002A7AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACED9E118FD984E002A7AD9;
+			remoteInfo = "调用摄像头和相册";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EACED9E218FD984E002A7AD9 /* 调用摄像头和相册.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "调用摄像头和相册.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACED9E518FD984E002A7AD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EACED9E718FD984E002A7AD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EACED9E918FD984E002A7AD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EACED9ED18FD984E002A7AD9 /* 调用摄像头和相册-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "调用摄像头和相册-Info.plist"; sourceTree = "<group>"; };
+		EACED9EF18FD984E002A7AD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EACED9F118FD984E002A7AD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EACED9F318FD984E002A7AD9 /* 调用摄像头和相册-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "调用摄像头和相册-Prefix.pch"; sourceTree = "<group>"; };
+		EACED9F418FD984E002A7AD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EACED9F518FD984E002A7AD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EACED9F818FD984E002A7AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EACED9FB18FD984E002A7AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EACED9FD18FD984E002A7AD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EACED9FE18FD984E002A7AD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EACEDA0018FD984E002A7AD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EACEDA0618FD984E002A7AD9 /* 调用摄像头和相册Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "调用摄像头和相册Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACEDA0718FD984E002A7AD9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EACEDA0F18FD984E002A7AD9 /* 调用摄像头和相册Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "调用摄像头和相册Tests-Info.plist"; sourceTree = "<group>"; };
+		EACEDA1118FD984E002A7AD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EACEDA1318FD984E002A7AD9 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACED9DF18FD984E002A7AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACED9E818FD984E002A7AD9 /* CoreGraphics.framework in Frameworks */,
+				EACED9EA18FD984E002A7AD9 /* UIKit.framework in Frameworks */,
+				EACED9E618FD984E002A7AD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACEDA0318FD984E002A7AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACEDA0818FD984E002A7AD9 /* XCTest.framework in Frameworks */,
+				EACEDA0A18FD984E002A7AD9 /* UIKit.framework in Frameworks */,
+				EACEDA0918FD984E002A7AD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACED9D918FD984E002A7AD9 = {
+			isa = PBXGroup;
+			children = (
+				EACED9EB18FD984E002A7AD9 /* 调用摄像头和相册 */,
+				EACEDA0D18FD984E002A7AD9 /* 调用摄像头和相册Tests */,
+				EACED9E418FD984E002A7AD9 /* Frameworks */,
+				EACED9E318FD984E002A7AD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACED9E318FD984E002A7AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACED9E218FD984E002A7AD9 /* 调用摄像头和相册.app */,
+				EACEDA0618FD984E002A7AD9 /* 调用摄像头和相册Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACED9E418FD984E002A7AD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EACED9E518FD984E002A7AD9 /* Foundation.framework */,
+				EACED9E718FD984E002A7AD9 /* CoreGraphics.framework */,
+				EACED9E918FD984E002A7AD9 /* UIKit.framework */,
+				EACEDA0718FD984E002A7AD9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EACED9EB18FD984E002A7AD9 /* 调用摄像头和相册 */ = {
+			isa = PBXGroup;
+			children = (
+				EACED9F418FD984E002A7AD9 /* AppDelegate.h */,
+				EACED9F518FD984E002A7AD9 /* AppDelegate.m */,
+				EACED9F718FD984E002A7AD9 /* Main_iPhone.storyboard */,
+				EACED9FA18FD984E002A7AD9 /* Main_iPad.storyboard */,
+				EACED9FD18FD984E002A7AD9 /* ViewController.h */,
+				EACED9FE18FD984E002A7AD9 /* ViewController.m */,
+				EACEDA0018FD984E002A7AD9 /* Images.xcassets */,
+				EACED9EC18FD984E002A7AD9 /* Supporting Files */,
+			);
+			path = "调用摄像头和相册";
+			sourceTree = "<group>";
+		};
+		EACED9EC18FD984E002A7AD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACED9ED18FD984E002A7AD9 /* 调用摄像头和相册-Info.plist */,
+				EACED9EE18FD984E002A7AD9 /* InfoPlist.strings */,
+				EACED9F118FD984E002A7AD9 /* main.m */,
+				EACED9F318FD984E002A7AD9 /* 调用摄像头和相册-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EACEDA0D18FD984E002A7AD9 /* 调用摄像头和相册Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EACEDA1318FD984E002A7AD9 /* ________Tests.m */,
+				EACEDA0E18FD984E002A7AD9 /* Supporting Files */,
+			);
+			path = "调用摄像头和相册Tests";
+			sourceTree = "<group>";
+		};
+		EACEDA0E18FD984E002A7AD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACEDA0F18FD984E002A7AD9 /* 调用摄像头和相册Tests-Info.plist */,
+				EACEDA1018FD984E002A7AD9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACED9E118FD984E002A7AD9 /* 调用摄像头和相册 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACEDA1718FD984E002A7AD9 /* Build configuration list for PBXNativeTarget "调用摄像头和相册" */;
+			buildPhases = (
+				EACED9DE18FD984E002A7AD9 /* Sources */,
+				EACED9DF18FD984E002A7AD9 /* Frameworks */,
+				EACED9E018FD984E002A7AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "调用摄像头和相册";
+			productName = "调用摄像头和相册";
+			productReference = EACED9E218FD984E002A7AD9 /* 调用摄像头和相册.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EACEDA0518FD984E002A7AD9 /* 调用摄像头和相册Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACEDA1A18FD984E002A7AD9 /* Build configuration list for PBXNativeTarget "调用摄像头和相册Tests" */;
+			buildPhases = (
+				EACEDA0218FD984E002A7AD9 /* Sources */,
+				EACEDA0318FD984E002A7AD9 /* Frameworks */,
+				EACEDA0418FD984E002A7AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EACEDA0C18FD984E002A7AD9 /* PBXTargetDependency */,
+			);
+			name = "调用摄像头和相册Tests";
+			productName = "调用摄像头和相册Tests";
+			productReference = EACEDA0618FD984E002A7AD9 /* 调用摄像头和相册Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACED9DA18FD984E002A7AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "上海思墨信息科技有限公司";
+				TargetAttributes = {
+					EACEDA0518FD984E002A7AD9 = {
+						TestTargetID = EACED9E118FD984E002A7AD9;
+					};
+				};
+			};
+			buildConfigurationList = EACED9DD18FD984E002A7AD9 /* Build configuration list for PBXProject "调用摄像头和相册" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EACED9D918FD984E002A7AD9;
+			productRefGroup = EACED9E318FD984E002A7AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACED9E118FD984E002A7AD9 /* 调用摄像头和相册 */,
+				EACEDA0518FD984E002A7AD9 /* 调用摄像头和相册Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACED9E018FD984E002A7AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACED9FC18FD984E002A7AD9 /* Main_iPad.storyboard in Resources */,
+				EACEDA0118FD984E002A7AD9 /* Images.xcassets in Resources */,
+				EACED9F918FD984E002A7AD9 /* Main_iPhone.storyboard in Resources */,
+				EACED9F018FD984E002A7AD9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACEDA0418FD984E002A7AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACEDA1218FD984E002A7AD9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACED9DE18FD984E002A7AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACED9FF18FD984E002A7AD9 /* ViewController.m in Sources */,
+				EACED9F618FD984E002A7AD9 /* AppDelegate.m in Sources */,
+				EACED9F218FD984E002A7AD9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACEDA0218FD984E002A7AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACEDA1418FD984E002A7AD9 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EACEDA0C18FD984E002A7AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EACED9E118FD984E002A7AD9 /* 调用摄像头和相册 */;
+			targetProxy = EACEDA0B18FD984E002A7AD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EACED9EE18FD984E002A7AD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACED9EF18FD984E002A7AD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EACED9F718FD984E002A7AD9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACED9F818FD984E002A7AD9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EACED9FA18FD984E002A7AD9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACED9FB18FD984E002A7AD9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EACEDA1018FD984E002A7AD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACEDA1118FD984E002A7AD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EACEDA1518FD984E002A7AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EACEDA1618FD984E002A7AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EACEDA1818FD984E002A7AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "调用摄像头和相册/调用摄像头和相册-Prefix.pch";
+				INFOPLIST_FILE = "调用摄像头和相册/调用摄像头和相册-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EACEDA1918FD984E002A7AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "调用摄像头和相册/调用摄像头和相册-Prefix.pch";
+				INFOPLIST_FILE = "调用摄像头和相册/调用摄像头和相册-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EACEDA1B18FD984E002A7AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/调用摄像头和相册.app/调用摄像头和相册";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "调用摄像头和相册/调用摄像头和相册-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "调用摄像头和相册Tests/调用摄像头和相册Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EACEDA1C18FD984E002A7AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/调用摄像头和相册.app/调用摄像头和相册";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "调用摄像头和相册/调用摄像头和相册-Prefix.pch";
+				INFOPLIST_FILE = "调用摄像头和相册Tests/调用摄像头和相册Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACED9DD18FD984E002A7AD9 /* Build configuration list for PBXProject "调用摄像头和相册" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACEDA1518FD984E002A7AD9 /* Debug */,
+				EACEDA1618FD984E002A7AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACEDA1718FD984E002A7AD9 /* Build configuration list for PBXNativeTarget "调用摄像头和相册" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACEDA1818FD984E002A7AD9 /* Debug */,
+				EACEDA1918FD984E002A7AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EACEDA1A18FD984E002A7AD9 /* Build configuration list for PBXNativeTarget "调用摄像头和相册Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACEDA1B18FD984E002A7AD9 /* Debug */,
+				EACEDA1C18FD984E002A7AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACED9DA18FD984E002A7AD9 /* Project object */;
+}
